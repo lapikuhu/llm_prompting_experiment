@@ -1,0 +1,3 @@
+What are the main differences between supervised and unsupervised learning?
+---
+Explain the concept of overfitting in machine learning and how to prevent it.

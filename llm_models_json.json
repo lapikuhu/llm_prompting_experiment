@@ -1,0 +1,58 @@
+{
+ "qwen2.5:1.5b-instruct": {
+    "kind": "generator",
+    "provider": "openai_compatible",
+    "model": "qwen2.5:1.5b-instruct",
+    "base_url": "http://localhost:11434",
+    "api_key": "ollama"
+  },
+  "qwen3:1.7b": {
+    "kind": "generator",
+    "provider": "openai_compatible",
+    "model": "qwen3:1.7b",
+    "base_url": "http://localhost:11434",
+    "api_key": "ollama"
+  },
+  "qwen:1.8b": {
+    "kind": "generator",
+    "provider": "openai_compatible",
+    "model": "qwen:1.8b",
+    "base_url": "http://localhost:11434",
+    "api_key": "ollama"
+  },
+  "qwen2.5:3b-instruct": {
+    "kind": "generator",
+    "provider": "openai_compatible",
+    "model": "qwen2.5:3b-instruct",
+    "base_url": "http://localhost:11434",
+    "api_key": "ollama"
+  },
+    "qwen3:4b": {
+    "kind": "generator",
+    "provider": "openai_compatible",
+    "model": "qwen3:4b",
+    "base_url": "http://localhost:11434",
+    "api_key": "ollama"
+  },
+    "qwen2.5:7b-instruct": {
+    "kind": "generator",
+    "provider": "openai_compatible",
+    "model": "qwen2.5:7b-instruct",
+    "base_url": "http://localhost:11434",
+    "api_key": "ollama"
+  },
+  "ollama-nomic-embed": {
+    "kind": "embedder",
+    "provider": "openai_compatible",
+    "model": "nomic-embed-text",
+    "base_url": "http://localhost:11434",
+    "api_key": "ollama"
+  },
+  "ollama-judge": {
+    "kind": "judge",
+    "provider": "openai_compatible",
+    "model": "llama3:8b",
+    "base_url": "http://localhost:11434",
+    "api_key": "ollama"
+  }
+}

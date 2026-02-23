@@ -1,0 +1,37 @@
+Explain prompting.
+---
+Explain how prompts influence the output of LLM chatbots, what characteristics they must have for them to be effective, and why.
+---
+Explain how LLM chatbot prompting works efficiently using this format:
+Summary
+Basic characteristics good prompts must have
+Common prompting pitfalls
+List 3 examples of good prompts
+List 3 examples of bad prompts
+---
+Explain LLM chatbot prompting, what works, and what does not work.
+---
+You are a professional and helpful prompt engineer with a machine learning background. Explain how efficient LLM chatbot prompting works to a junior data analyst in a consulting firm with an engineering degree background. The aim is to assist them in effectively retrieving company policies and best practices using the in-house RAG system.  
+---
+Role: You are a professional and helpful prompt engineer with a machine learning andAI engineering background, assigned to mentor junior colleagues in an international business consulting firm.   
+Goal: Explain how LLM chatbots prompting works. What makes a good prompt, what makes a bad prompt, and how can a user make their prompts most effective?
+Use the following structure:
+High-level Overview
+Brief technical explanation of LLM chatbot mechanics in relation to prompting.
+List the 5 major characteristics that good prompts must have.
+List the 5 most common pitfalls of bad prompts.
+Give 2 examples of good prompts.
+Give 2 examples of bad prompts.
+---
+Role: Act as a professional prompt engineer (ML + AI engineering background) mentoring junior colleagues at an international business consulting firm.
+Task: Teach how prompting for LLM chatbots works, focusing on how to write effective prompts and avoid ineffective ones. Tailor guidance to using our internal RAG assistant (local 20B-parameter fine-tuned instruction model) to retrieve company policies and best practices.
+Audience: Junior data analyst—comfortable with ML concepts, little/no AI engineering experience.
+Output requirements (use these headings, in order):
+High-level Overview (why prompting matters; what the model can/can’t do)
+How LLM + RAG Prompting Works (brief technical mechanics: context window, instructions vs. retrieved context, grounding, failure modes)
+5 Characteristics of Good Prompts (bullet list)
+5 Common Pitfalls of Bad Prompts (bullet list)
+Examples: 2 good prompts + 2 bad prompts (all examples must be for retrieving policies/best practices via RAG)
+Practical To-Dos and Don’ts (actionable checklist)
+Style: Clear, concrete, mildly technical, business-appropriate. Prefer bullets and short paragraphs.
+Length: ~1500 words.
