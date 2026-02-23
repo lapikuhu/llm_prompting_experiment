@@ -47,12 +47,5 @@
     "model": "nomic-embed-text",
     "base_url": "http://localhost:11434",
     "api_key": "ollama"
-  },
-  "ollama-judge": {
-    "kind": "judge",
-    "provider": "openai_compatible",
-    "model": "llama3:8b",
-    "base_url": "http://localhost:11434",
-    "api_key": "ollama"
   }
 }
