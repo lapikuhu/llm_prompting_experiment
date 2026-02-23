@@ -2,6 +2,8 @@ Explain prompting.
 ---
 Explain how prompts influence the output of LLM chatbots, what characteristics they must have for them to be effective, and why.
 ---
+Explain LLM chatbot prompting with examples.
+---
 Explain how LLM chatbot prompting works efficiently using this format:
 Summary
 Basic characteristics good prompts must have
