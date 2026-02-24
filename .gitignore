@@ -38,3 +38,7 @@ desktop.ini
 *.log
 *.tmp
 *.bak
+.claude/agents/Reviewer.agent.md
+.github/agents/Feature Builder.agent.md
+.github/agents/Implementer.agent.md
+.github/agents/Researcher.agent.md

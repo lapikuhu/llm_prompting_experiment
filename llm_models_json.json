@@ -41,7 +41,7 @@
     "base_url": "http://localhost:11434",
     "api_key": "ollama"
   },
-  "ollama-nomic-embed": {
+  "nomic-embed-text": {
     "kind": "embedder",
     "provider": "openai_compatible",
     "model": "nomic-embed-text",
